@@ -1,3 +1,9 @@
+xulrunner (0.0.0-0~rzr0) UNRELEASED; urgency=low
+
+  * http://rzr.online.fr/q/snapshot
+
+ -- Philippe Coval <rzr@gna.org>  Sat, 16 Feb 2013 21:44:15 +0100
+
 xulrunner (0.1) unstable; urgency=low
 
   * Initial Release.
