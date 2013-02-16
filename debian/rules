@@ -63,6 +63,7 @@ endif
 ifneq (,$(findstring $(DEB_HOST_ARCH),arm armel))
 	echo "ac_add_options --with-gl-provider=EGL" >> $(CURDIR)/$(MOZCONFIG_FILE)
 	echo "ac_add_options --disable-webrtc" >> $(CURDIR)/$(MOZCONFIG_FILE)
+	echo "ac_add_options --disable-valgrind" >> $(CURDIR)/$(MOZCONFIG_FILE)
 	echo "ac_add_options --with-arm-kuser" >> $(CURDIR)/$(MOZCONFIG_FILE)
 ifneq (,$(findstring thumb,$(DEB_BUILD_OPTIONS)))
 	echo "ac_add_options --with-thumb=yes" >> $(CURDIR)/$(MOZCONFIG_FILE)
